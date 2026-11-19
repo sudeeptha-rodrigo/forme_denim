@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Production build outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.env
+*.env.*
+*.pem
+*.key
+*.cert
+
+# Vercel deployment folder
+.vercel/
+
+# IDE and Editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
